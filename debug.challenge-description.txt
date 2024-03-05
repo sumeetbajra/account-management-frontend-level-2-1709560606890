@@ -1,0 +1,1 @@
+This challenge involves creating a Personal Task Manager frontend application, assessing skills in ReactJS, Redux, TypeScript, Chakra UI, Parcel, and unit testing. Candidates will implement features for task management including creation, completion, and filtering.

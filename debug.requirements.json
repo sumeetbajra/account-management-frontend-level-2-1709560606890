@@ -1,0 +1,30 @@
+[
+  {
+    "requirement": "The app allows users to input, submit, view, mark tasks as completed, and filter tasks based on their completion status.",
+    "criteria": "<p>Check if the app provides a form for task submission and displays tasks. Ensure tasks can be marked as completed and filtered by their status.</p> <p>Verify the tasks list updates in real-time upon these actions without page reloads, indicating SPA behavior.</p>"
+  },
+  {
+    "requirement": "Application is built using the specified tech stack: ReactJS, Redux, Parcel, TypeScript, Chakra UI, and includes unit testing.",
+    "criteria": "<p>Review the project setup to confirm the use of ReactJS functional components, hooks, Redux for state management, Parcel as a bundler, TypeScript for type-checking, and Chakra UI for styling.</p> <p>Confirm at least one component or utility is covered by unit tests using Jest or React Testing Library.</p>"
+  },
+  {
+    "requirement": "Client-side validation prevents the submission of empty tasks.",
+    "criteria": "<p>Ensure the task input form validates input on the client side, disallowing empty tasks from being submitted.</p>"
+  },
+  {
+    "requirement": "App handles error states gracefully.",
+    "criteria": "<p>Simulate task submission failure scenarios to verify the app displays appropriate error messages without crashing or corrupting the app state.</p>"
+  },
+  {
+    "requirement": "Optimized app performance with minimal unnecessary renders.",
+    "criteria": "<p>Review code for the usage of React.memo, useCallback, or useMemo to minimize unnecessary renders. Analyze the React DevTools Profiler for render performance.</p>"
+  },
+  {
+    "requirement": "Codebase is organized in a maintainable manner, with reusable components and utilities.",
+    "criteria": "<p>Evaluate the project structure for clear separation of components, utilities, and state management. Check for reusable UI components and utility functions.</p>"
+  },
+  {
+    "requirement": "E2E tests pass based on the data-test attributes.",
+    "criteria": "<p>Verify the provided E2E tests pass, confirming the functional correctness of the task management features according to the requirements.</p>"
+  }
+]
